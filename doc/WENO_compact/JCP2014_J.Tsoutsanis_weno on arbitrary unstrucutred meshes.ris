@@ -1,0 +1,28 @@
+TY  - JOUR
+T1  - WENO schemes on arbitrary unstructured meshes for laminar, transitional and turbulent flows
+JO  - Journal of Computational Physics
+VL  - 256
+IS  - 
+SP  - 254
+EP  - 276
+PY  - 2014/1/1/
+T2  - 
+AU  - Tsoutsanis, Panagiotis
+AU  - Antoniadis, Antonios Foivos
+AU  - Drikakis, Dimitris
+SN  - 0021-9991
+DO  - http://dx.doi.org/10.1016/j.jcp.2013.09.002
+UR  - http://www.sciencedirect.com/science/article/pii/S0021999113006062
+KW  - WENO
+KW  - Unstructured
+KW  - Hybrid mesh
+KW  - ILES
+KW  - Sphere
+KW  - Turbulence
+KW  - RANS
+KW  - Hypersonic
+AB  - Abstract
+This paper presents the development and implementation of weighted-essentially-non-oscillatory (WENO) schemes for viscous flows on arbitrary unstructured grids. WENO schemes up to fifth-order accurate have been implemented in conjunction with hybrid and non-hybrid unstructured grids. The schemes are investigated with reference to numerical and experimental results for the Taylor–Green vortex, as well as for laminar and turbulent flows around a sphere, and the turbulent shock-wave boundary layer interaction flow problem. The results show that the accuracy of the schemes depends on the arbitrariness of shape and orientation of the unstructured mesh elements, as well as the compactness of directional stencils. The WENO schemes provide a more accurate numerical framework compared to second-order and third-order total variation diminishing (TVD) methods, however, the fifth-order version of the schemes is computationally too expensive to make the schemes practically usable. On the other hand, the third-order variant offers an excellent numerical framework in terms of accuracy and computational cost compared to the fifth-order WENO and second-order TVD schemes. Parallelisation of the CFD code (henceforth labelled as UCNS3D), where the schemes have been implemented, shows that the present methods offer very good scalable performance.
+ER  - 
+
+

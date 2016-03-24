@@ -1,0 +1,25 @@
+TY  - JOUR
+T1  - A characteristic-wise hybrid compact-WENO scheme for solving hyperbolic conservation laws
+JO  - Journal of Computational Physics
+VL  - 192
+IS  - 2
+SP  - 365
+EP  - 386
+PY  - 2003/12/10/
+T2  - 
+AU  - Ren, Yu-Xin
+AU  - Liu, Miao’er
+AU  - Zhang, Hanxin
+SN  - 0021-9991
+DO  - http://dx.doi.org/10.1016/j.jcp.2003.07.006
+UR  - http://www.sciencedirect.com/science/article/pii/S002199910300398X
+KW  - Compact scheme
+KW  - WENO scheme
+KW  - Hybrid scheme
+KW  - Shock-capturing
+KW  - High-order scheme
+KW  - Conservation laws
+AB  - This paper presents a fifth-order conservative hybrid compact-WENO scheme for shock-capturing calculation. The hybrid scheme is considered as the weighted average of two sub-schemes: the conservative compact scheme proposed by Pirozzoli and the WENO scheme. The weight function is designed so that the abrupt transition from one sub-scheme to another is avoided and the resulting hybrid scheme is essentially oscillation free near the flow discontinuities. A Roe type, characteristic-wise finite difference scheme is proposed which generalizes the hybrid scheme for the scalar equation to the system of conservation laws. Several test cases are presented to validate the proposed scheme.
+ER  - 
+
+

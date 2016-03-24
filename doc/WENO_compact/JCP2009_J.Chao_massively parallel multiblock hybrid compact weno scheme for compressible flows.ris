@@ -1,0 +1,30 @@
+TY  - JOUR
+T1  - ADER-WENO finite volume schemes with space–time adaptive mesh refinement
+JO  - Journal of Computational Physics
+VL  - 248
+IS  - 
+SP  - 257
+EP  - 286
+PY  - 2013/9/1/
+T2  - 
+AU  - Dumbser, Michael
+AU  - Zanotti, Olindo
+AU  - Hidalgo, Arturo
+AU  - Balsara, Dinshaw S.
+SN  - 0021-9991
+DO  - http://dx.doi.org/10.1016/j.jcp.2013.04.017
+UR  - http://www.sciencedirect.com/science/article/pii/S0021999113002660
+KW  - Adaptive mesh refinement (AMR)
+KW  - Time accurate local timestepping
+KW  - Space–time adaptive grids
+KW  - High order WENO reconstruction
+KW  - ADER approach
+KW  - Local space–time DG predictor
+KW  - Hyperbolic conservation laws
+KW  - Euler equations
+KW  - MHD equations
+AB  - Abstract
+We present the first high order one-step ADER-WENO finite volume scheme with adaptive mesh refinement (AMR) in multiple space dimensions. High order spatial accuracy is obtained through a WENO reconstruction, while a high order one-step time discretization is achieved using a local space–time discontinuous Galerkin predictor method. Due to the one-step nature of the underlying scheme, the resulting algorithm is particularly well suited for an AMR strategy on space–time adaptive meshes, i.e. with time-accurate local time stepping. The AMR property has been implemented ‘cell-by-cell’, with a standard tree-type algorithm, while the scheme has been parallelized via the message passing interface (MPI) paradigm. The new scheme has been tested over a wide range of examples for nonlinear systems of hyperbolic conservation laws, including the classical Euler equations of compressible gas dynamics and the equations of magnetohydrodynamics (MHD). High order in space and time have been confirmed via a numerical convergence study and a detailed analysis of the computational speed-up with respect to highly refined uniform meshes is also presented. We also show test problems where the presented high order AMR scheme behaves clearly better than traditional second order AMR methods. The proposed scheme that combines for the first time high order ADER methods with space–time adaptive grids in two and three space dimensions is likely to become a useful tool in several fields of computational physics, applied mathematics and mechanics.
+ER  - 
+
+

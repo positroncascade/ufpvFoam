@@ -1,0 +1,22 @@
+TY  - JOUR
+T1  - Hybrid tuned center-difference-WENO method for large eddy simulations in the presence of strong shocks
+JO  - Journal of Computational Physics
+VL  - 194
+IS  - 2
+SP  - 435
+EP  - 450
+PY  - 2004/3/1/
+T2  - 
+AU  - Hill, D.J
+AU  - Pullin, D.I
+SN  - 0021-9991
+DO  - http://dx.doi.org/10.1016/j.jcp.2003.07.032
+UR  - http://www.sciencedirect.com/science/article/pii/S002199910300490X
+KW  - Compressible turbulence
+KW  - LES
+KW  - Hybrid methods
+KW  - Center difference
+AB  - We develop a tuned center-difference (TCD) scheme optimized for large-eddy simulations (LES) using a method proposed by Ghosal. For LES of weakly compressible decaying turbulence, these optimized stencils are shown to provide superior performance when compared to higher-order centered schemes with the same stencil width. A hybrid method combining the TCD stencil with a weighted essentially non-oscillatory (WENO) method is then constructed for use in the LES of strongly compressible, shock-driven flows. The user-specified, optimum WENO weights are chosen to match those of the TCD scheme. It is expected that these weights will be achieved automatically in regions of smooth flow away from shocks, but in practice a switch is found to be necessary. The hybrid TCD–WENO scheme is shown to work well for unsteady gas-dynamic flows in one and two dimensions.
+ER  - 
+
+

@@ -1,0 +1,25 @@
+TY  - JOUR
+T1  - Finite-volume WENO scheme for viscous compressible multicomponent flows
+JO  - Journal of Computational Physics
+VL  - 274
+IS  - 
+SP  - 95
+EP  - 121
+PY  - 2014/10/1/
+T2  - 
+AU  - Coralic, Vedran
+AU  - Colonius, Tim
+SN  - 0021-9991
+DO  - http://dx.doi.org/10.1016/j.jcp.2014.06.003
+UR  - http://www.sciencedirect.com/science/article/pii/S0021999114004082
+KW  - WENO
+KW  - HLLC
+KW  - Viscous
+KW  - Shock-capturing
+KW  - Interface-capturing
+KW  - Multicomponent flows
+AB  - Abstract
+We develop a shock- and interface-capturing numerical method that is suitable for the simulation of multicomponent flows governed by the compressible Navier–Stokes equations. The numerical method is high-order accurate in smooth regions of the flow, discretely conserves the mass of each component, as well as the total momentum and energy, and is oscillation-free, i.e. it does not introduce spurious oscillations at the locations of shockwaves and/or material interfaces. The method is of Godunov-type and utilizes a fifth-order, finite-volume, weighted essentially non-oscillatory (WENO) scheme for the spatial reconstruction and a Harten–Lax–van Leer contact (HLLC) approximate Riemann solver to upwind the fluxes. A third-order total variation diminishing (TVD) Runge–Kutta (RK) algorithm is employed to march the solution in time. The derivation is generalized to three dimensions and nonuniform Cartesian grids. A two-point, fourth-order, Gaussian quadrature rule is utilized to build the spatial averages of the reconstructed variables inside the cells, as well as at cell boundaries. The algorithm is therefore fourth-order accurate in space and third-order accurate in time in smooth regions of the flow. We corroborate the properties of our numerical method by considering several challenging one-, two- and three-dimensional test cases, the most complex of which is the asymmetric collapse of an air bubble submerged in a cylindrical water cavity that is embedded in 10% gelatin.
+ER  - 
+
+

@@ -1,0 +1,26 @@
+TY  - JOUR
+T1  - A hybrid numerical simulation of isotropic compressible turbulence
+JO  - Journal of Computational Physics
+VL  - 229
+IS  - 13
+SP  - 5257
+EP  - 5279
+PY  - 2010/7/1/
+T2  - 
+AU  - Wang, J.
+AU  - Wang, L.-P.
+AU  - Xiao, Z.
+AU  - Shi, Y.
+AU  - Chen, S.
+SN  - 0021-9991
+DO  - http://dx.doi.org/10.1016/j.jcp.2010.03.042
+UR  - http://www.sciencedirect.com/science/article/pii/S0021999110001610
+KW  - Compressible turbulence
+KW  - Compact finite difference
+KW  - WENO
+KW  - Hybrid approach
+KW  - Shocklets
+AB  - A novel hybrid numerical scheme with built-in hyperviscosity has been developed to address the accuracy and numerical instability in numerical simulation of isotropic compressible turbulence in a periodic domain at high turbulent Mach number. The hybrid scheme utilizes a 7th-order WENO (Weighted Essentially Non-Oscillatory) scheme for highly compressive regions (i.e., shocklet regions) and an 8th-order compact central finite difference scheme for smooth regions outside shocklets. A flux-based conservative and formally consistent formulation is developed to optimize the connection between the two schemes at the interface and to achieve a higher computational efficiency. In addition, a novel numerical hyperviscosity formulation is proposed within the context of compact finite difference scheme for the smooth regions to improve numerical stability of the hybrid method. A thorough and insightful analysis of the hyperviscosity formulation in both Fourier space and physical space is presented to show the effectiveness of the formulation in improving numerical stability, without compromising the accuracy of the hybrid method. A conservative implementation of the hyperviscosity formulation is also developed. Combining the analysis and test simulations, we have also developed a criterion to guide the specification of a numerical hyperviscosity coefficient (the only adjustable coefficient in the formulation). A series of test simulations are used to demonstrate the accuracy and numerical stability of the scheme for both decaying and forced compressible turbulence. Preliminary results for a high-resolution simulation at turbulent Mach number of 1.08 are shown. The sensitivity of the simulated flow to the detail of thermal forcing method is also briefly discussed.
+ER  - 
+
+
